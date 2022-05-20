@@ -1,5 +1,5 @@
 {% set name = "ipyxact" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 95651b079befc02f56e3a71e15a03d2a305ef14d419a2b7c2f3cdc484bafc293
+  sha256: 1f58edcab10ad29896364e760dc3c1c0d2b8d2af8688feb86d90e367ec473b27
 
 build:
   noarch: python
